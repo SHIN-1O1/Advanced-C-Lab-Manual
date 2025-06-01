@@ -12,19 +12,27 @@ Algorithm:
 7.	Return 0
  
 Program:
+```
+#include<stdio.h> struct numbers
+{
+int a; int b;
+}n;
+int add(struct numbers n); int main()
+{
 
-//type your code here
+scanf("%d %d ",&n.a,&n.b);
+printf("%d",add(n));
+}
+int add(struct numbers n)
+{
+return n.a+n.b;
+}
+```
+
 
 
 
 
 Output:
 
-//paste your output screenshots here
-
-
-
-
-
-Result:
-Thus, the program is verified successfully
+![image](https://github.com/user-attachments/assets/ea10cc76-0b3a-4bf5-a7fa-973d4aded028)
